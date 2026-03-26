@@ -1,0 +1,72 @@
+/* Page Background */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(to right, #6a93cb, #a4bfef);
+  margin: 0;
+  padding: 0;
+}
+
+/* Weather Card (Container) */
+.container {
+  max-width: 500px;
+  margin: 60px auto 20px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Search Box Layout */
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Input Field */
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Button */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Weather Result */
+#weatherResult {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #444;
+}
+
+/* MAP (OUTSIDE CONTAINER) */
+#map {
+  margin: 20px auto 40px auto;
+  height: 400px;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
