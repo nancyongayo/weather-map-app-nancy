@@ -1,4 +1,4 @@
-const apiKey = "0558bd4139286366231e56fbdddf18a6";
+const apiKey = "YOUR_API_KEY";
 
 let map;
 let marker;
